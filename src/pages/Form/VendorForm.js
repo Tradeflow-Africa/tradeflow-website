@@ -49,7 +49,7 @@ const VendorForm = ({ popSuccessModalHandler }) => {
       setIsSubmitting(true);
       const formData = new FormData(formRef.current);
       fetch(
-        "https://script.google.com/macros/s/AKfycbxvnue2-uQKlG0Uqg9WQuRSoPtgR0o24S1Ajedu4LzzN4yWSOLmF-F5x4G2jfzr9vsnyA/exec",
+        "https://script.google.com/macros/s/AKfycbxYxwxdcZP6bW-o3PNRrEc_Lh0oTeneOp_0I9bhXHGMPHYP5DDVsakrAhiMcJJDwJ0NFA/exec",
         {
           method: "POST",
           body: formData,
