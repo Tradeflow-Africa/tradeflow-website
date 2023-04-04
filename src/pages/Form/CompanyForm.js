@@ -71,7 +71,7 @@ const CompanyForm = ({ popSuccessModalHandler }) => {
       const formData = new FormData(formRef.current);
       fetch(
         //"https://script.google.com/macros/s/AKfycbwIYT1UzTFolc2490xf0Ro4LTpbXlUpdHTokH6nAI-GjzCEs-PRWWFkWT4HCcClPbrDAg/exec",
-        "https://script.google.com/a/macros/tradeflow.africa/s/AKfycbwwnM01g4IF2uAFMpUeos38W7TG5Pgw8LbRsq6nPWzcfLh2jvATFQnL2vlyI-PLQDVE/exec",
+        "https://script.google.com/macros/s/AKfycbzQez-xzQOQhYI3K0Lw8k8D-ZQHEN4VNY28wNlLGW0TPbsD8bdN_Pwpb8_P-5lihoiA/exec",
         {
           method: "POST",
           body: formData,
